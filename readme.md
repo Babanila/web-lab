@@ -58,3 +58,5 @@ A second block overrides those variables when the `[data-theme="dark"]` selector
 | `script.js` | New file — wires up click listener, applies/persists theme |
 
 ---
+
+Update the version to 1.0.0
