@@ -24,6 +24,25 @@ body {
   min-height: 100vh;
 }
 
+nav, ul {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;  
+}
+
+nav ul a {
+  color: #e60808;
+  background: transparent;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 nav ul a:hover {
   color: #ffffff;
   background: rgba(128,128,128,.1);
@@ -32,7 +51,7 @@ nav ul a:hover {
 #theme-toggle {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
+  margin-left: 1rem;
   padding: 0.4rem 0.9rem;
   background: #ffffff;
   color: #000000;
