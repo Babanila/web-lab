@@ -1,6 +1,45 @@
+:root {
+  background: #f6f8fa;
+  color: #000000;
+}
+
+[data-theme="dark"] {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Reset & Base */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+
+html { font-size: 16px; }
+
+
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
   padding: 2rem;
   background: #f6f8fa;
+  color: #000000;
+  min-height: 100vh;
+}
+
+nav ul a:hover {
+  color: #ffffff;
+  background: rgba(128,128,128,.1);
+}
+
+#theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.9rem;
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
 }
